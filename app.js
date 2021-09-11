@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 8080;
 const http = require('http');
 const express = require('express');
 const fs = require('fs');
@@ -16,6 +17,6 @@ app.get('/stuff',function(req,res){
     })
 });
 
-server.listen(8080, function(){
+server.listen(PORT, function(){
     console.log('server listening to port 8080');
 })
