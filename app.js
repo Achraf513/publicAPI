@@ -7,7 +7,7 @@ var app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('<h1>Hello world</h1>'+PORT);
+    res.sendFile('./index.html', {root: __dirname })
 });
 
 app.get('/stuff',function(req,res){
