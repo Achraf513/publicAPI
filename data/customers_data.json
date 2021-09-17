@@ -1,0 +1,164 @@
+{
+  "customers": [
+    {
+      "_id": 0,
+      "email": "sabrina.ferry95@gmail.com",
+      "username": "Sabrina",
+      "picURL": "https://images.generated.photos/yftyp89XEY7eftRt_2Vg9vMPd9OTS6dMt6fncAeSTvk/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODE3NzYwLmpwZw.jpg",
+      "password": "t9U8cbnX9gfl",
+      "phone": "310-542-4074",
+      "address": "Redondo Beach, CA,USA",
+      "balance": 3555
+    },
+    {
+      "_id": 1,
+      "email": "moriah56@yahoo.com",
+      "username": "Moriah",
+      "picURL": "https://images.generated.photos/guMaZBboDP63nfnYZrz3E4NgmuI5CXQHu_23VwvnPCI/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Mjk4OTQ2LmpwZw.jpg",
+      "password": "HvLTjFEiVsfi",
+      "phone": "714-334-4860",
+      "address": "Anaheim, CA,USA",
+      "balance": 4320
+    },
+    {
+      "_id": 2,
+      "email": "tyrese_collier63@gmail.com",
+      "username": "Tyrese",
+      "picURL": "https://imgproxy.generated.photos/mAWAKIUmzzr-vd0wSZpmn1S7N-ZPY9f31BjcB7uhVj0/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wMzYxNDcxLnBu/Zw.png",
+      "password": "Fllfe8XmAzXT",
+      "phone": "608-257-3495",
+      "address": " Madison, WI,USA",
+      "balance": 1350
+    },
+    {
+      "_id": 3,
+      "email": "wyman_carter@hotmail.com",
+      "username": "Wyman",
+      "picURL": "https://imgproxy.generated.photos/O2FAla1bdCVFDeEh478RzFxznIwaa32r2MYiAgbg-Og/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wMTUyMzU5LnBu/Zw.png",
+      "password": "rvjGRLw0aQjW",
+      "phone": "678-213-9414",
+      "address": "Atlanta, GA,USA",
+      "balance": 13220
+    },
+    {
+      "_id": 4,
+      "email": "reuben_auer@gmail.com",
+      "username": "Reuben",
+      "picURL": "https://imgproxy.generated.photos/JlEGETgoeQhI5sp-oSEuD5e4r5TqIM__1t2zpqUIhvk/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wODIxMzQ1LnBu/Zw.png",
+      "password": "dBnTEmyLT7m8",
+      "phone": "561-333-5567",
+      "address": "West Palm Beach, FL,USA",
+      "balance": 25020
+    },
+    {
+      "_id": 5,
+      "email": "dortha.mertz65@yahoo.com",
+      "username": "Dortha",
+      "picURL": "https://imgproxy.generated.photos/u2qbH5dwrYWRU06s52YIBcqiI8r_ZIxbDVeW5RoJ6O8/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wNjM3Mzg5LnBu/Zw.png",
+      "password": "V7GoSWtc5MrQ",
+      "phone": "562-274-1180",
+      "address": "Anaheim, CA,USA",
+      "balance": 3300
+    },
+    {
+      "_id": 6,
+      "email": "jerry.fahey@yahoo.com",
+      "username": "Jerry",
+      "picURL": "https://imgproxy.generated.photos/j2hzsz8FvqZDzY2E-0kzw-HcLrqHakUE_qLlY8NBRf0/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wMDA3MDIwLnBu/Zw.png",
+      "password": "63kvTnny3Ih9",
+      "phone": "913-703-5999",
+      "address": "Kansas City, KS,USA",
+      "balance": 31300
+    },
+    {
+      "_id": 7,
+      "email": "kaitlin.shields@yahoo.com",
+      "username": "Kaitlin",
+      "picURL": "https://imgproxy.generated.photos/_vxDhj5f8jOgH8VjvUMP4daXc9I8qohdpI44gRKAz8k/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wMjU0ODE0LnBu/Zw.png",
+      "password": "HvLTjFEiVsfi",
+      "phone": "310-745-0746",
+      "address": "Mar Vista, CA,USA",
+      "balance": 112300
+    },
+    {
+      "_id": 8,
+      "email": "clifford.ryan35@gmail.com",
+      "username": "Clifford",
+      "picURL": "https://imgproxy.generated.photos/Gnp5krpiSqGd3Wps1-NIsLBepMZbWKAVBmN7g9KSc1o/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wODY0MTkxLnBu/Zw.png",
+      "password": "s5BLCp71RrKv",
+      "phone": "305-268-3188",
+      "address": "Miami, FL,USA",
+      "balance": 52300
+    },
+    {
+      "_id": 9,
+      "email": "sophie65@yahoo.com",
+      "username": "Sophie",
+      "picURL": "https://imgproxy.generated.photos/LuyKqPWaHgG_wgYC22TNDBIT9v8L-F4hcVUlcb2ug68/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wNjY4NTAyLnBu/Zw.png",
+      "password": "JGKuO6VpLnOq",
+      "phone": "402-591-9593",
+      "address": "Omaha, NE,USA",
+      "balance": 10050
+    },
+    {
+      "_id": 10,
+      "email": "jamey51@hotmail.com",
+      "username": "Jamey",
+      "picURL": "https://imgproxy.generated.photos/E1IxWoL8WrGBmEOdxGi9_eO3uKa-sTrw2JQIZpjFjTk/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wMDA3NzM2LnBu/Zw.png",
+      "password": "tOS9OIM0pYV8",
+      "phone": "847-708-0989",
+      "address": "Albuquerque, NM,USA",
+      "balance": 15000
+    },
+    {
+      "_id": 11,
+      "email": "thad67@gmail.com",
+      "username": "Thad6",
+      "picURL": "https://imgproxy.generated.photos/tPQwJx2j8qrMTBNA7km9F-ppSi8QwKv1_4cgAnKnq5k/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wMzY5NzEzLnBu/Zw.png",
+      "password": "pSanhGMIXE79",
+      "phone": "505-939-4949",
+      "address": "Barnstable, MA,USA",
+      "balance": 25000
+    },
+    {
+      "_id": 12,
+      "email": "dorothea_blick@yahoo.com",
+      "username": "Dorothea",
+      "picURL": "https://imgproxy.generated.photos/yjQqcEowOYEqWth-BwkbQ1fv6mitJ1fd2o3goHkRFVs/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wMTM2NDUyLnBu/Zw.png",
+      "password": "n7dWdmB68d8J",
+      "phone": "817-570-2587",
+      "address": "Fort Worth, TX,USA",
+      "balance": 2300
+    },
+    {
+      "_id": 13,
+      "email": "doris_oconnell97@yahoo.com",
+      "username": "Doris",
+      "picURL": "https://imgproxy.generated.photos/efFllPQ1_bMrB_J_dVfLpE0FvfFMNgML4xrpO1jsp-A/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wNjY3MDc5LnBu/Zw.png",
+      "password": "h1V5ERNGnIMt",
+      "phone": "850-765-5765",
+      "address": "Tallahassee, FL,USA",
+      "balance": 5300
+    },
+    {
+      "_id": 14,
+      "email": "darklord71@hotmail.com",
+      "username": "DarkLoard",
+      "picURL": "https://imgproxy.generated.photos/-4etW4JyvXoDKvQ6N5A0SmJB30_H4fG2LRw393O3FnY/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wNTg2Njc0LnBu/Zw.png",
+      "password": "qF4QS6DfN7aF",
+      "phone": "815-314-4018",
+      "address": "Manhattan, IL,USA",
+      "balance": 115300
+    },
+    {
+      "_id": 15,
+      "email": "jedidiah_huels69@yahoo.com",
+      "username": "Jedidiah",
+      "picURL": "https://imgproxy.generated.photos/q3GK7shx4ZrCbo7UiqBvykwsjUCd5ZsaTa9ntnAbhTY/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy90cmFu/c3BhcmVudF92My92/M18wOTU2MTI2LnBu/Zw.png",
+      "password": "e9mSdIUukIUI",
+      "phone": "530-725-2071",
+      "address": "South Lake Tahoe, CA,USA",
+      "balance": 9550
+    }
+  ]
+}

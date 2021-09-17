@@ -17,6 +17,7 @@
     "node": "v14.15.5"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
