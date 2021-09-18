@@ -107,13 +107,17 @@
             font-size: 22px;
         }
 
+        .iconx3 {
+            font-size: 27px;
+        }
+
         .iconwider {
             padding-left: 13px;
             padding-right: 13px;
         }
 
         .usageHint {
-            margin-bottom: 65px;
+            margin-bottom: 10px;
         }
 
         .url {
@@ -144,6 +148,41 @@
             float: right;
         }
 
+        .testCodeBlock {
+            background-color: rgb(22, 22, 22);
+            padding: 10px;
+            width: 100%;
+            margin-top: 50px;
+            height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: 1s;
+        }
+
+        .testCodeBlock:hover {
+            overflow-x: scroll;
+        }
+
+        .show {
+            opacity: 1;
+            height: 640px;
+        }
+
+        .showSmall {
+            opacity: 1;
+            height: 320px;
+        }
+
+        .showlarger {
+            opacity: 1;
+            height: 710px;
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: 45px;
+        }
+
         @media screen and (max-width: 900px) {
             .container {
                 width: 90vw;
@@ -151,18 +190,19 @@
                 padding: 10px;
             }
 
+            .testCodeBlock {
+                overflow-x: scroll;
+            }
+
             .codeBlock {
                 overflow-x: scroll;
                 width: 100%;
             }
-        }
 
-        .testCodeBlock {
-            background-color: rgb(22, 22, 22);
-            overflow-x: scroll;
-            padding: 10px;
-            width: 100%;
-            margin-top: 50px;
+            .showlarger {
+                opacity: 1;
+                height: 910px;
+            }
         }
     </style>
 </head>
@@ -248,7 +288,7 @@
             </div>
 
             <div class="usageCustomers">
-                <h4 class="green"> <i class="fal fa-code icon"></i> Customers</h4>
+                <h4 class="green"> <i class="fal fa-code icon iconx3"></i> Customers</h4>
                 <div class="usageHint">
                     <h5 class="lightGreen">Get All Customers</h5>
                     <p>In this case the server will return all the customers saved in it's data</p>
@@ -263,12 +303,12 @@
                         <button id="getAllHide" class="btn btn-outline-danger" hidden="true" onclick="hideGetAll()">Hide
                             Output</button>
                     </div>
-                    <div id="getAllCodeBlock" class="testCodeBlock" hidden="true">
+                    <div id="getAllCodeBlock" class="testCodeBlock">
                         <span class="green"> [ </span> <br>
                         <span class="green ml-2">{</span> <br>
                         <span class="ml-4 lightGreen">"_id":</span>0, <br>
-                        <span class="ml-4 lightGreen">"email":</span>"sabrina.ferry95@gmail.com", <br>
-                        <span class="ml-4 lightGreen">"username":</span>"Sabrina", <br>
+                        <span class="ml-4 lightGreen">"email":</span>"armin.ferry95@gmail.com", <br>
+                        <span class="ml-4 lightGreen">"username":</span>"armin", <br>
                         <span
                             class="ml-4 lightGreen">"picURL":</span>"https://images.generated.photos/yftyp89XEY7eftRt_2Vg9vMPd9OTS6dMt6fncAeSTvk/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODE3NzYwLmpwZw.jpg",
                         <br>
@@ -310,12 +350,12 @@
                             onclick="hideGetById()">Hide
                             Output</button>
                     </div>
-                    <div id="getbyIdCodeBlock" class="testCodeBlock" hidden="true">
+                    <div id="getbyIdCodeBlock" class="testCodeBlock">
                         <span class="green"> [ </span> <br>
                         <span class="green ml-2">{</span> <br>
                         <span class="ml-4 lightGreen">"_id":</span>0, <br>
-                        <span class="ml-4 lightGreen">"email":</span>"sabrina.ferry95@gmail.com", <br>
-                        <span class="ml-4 lightGreen">"username":</span>"Sabrina", <br>
+                        <span class="ml-4 lightGreen">"email":</span>"armin.ferry95@gmail.com", <br>
+                        <span class="ml-4 lightGreen">"username":</span>"armin", <br>
                         <span
                             class="ml-4 lightGreen">"picURL":</span>"https://images.generated.photos/yftyp89XEY7eftRt_2Vg9vMPd9OTS6dMt6fncAeSTvk/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODE3NzYwLmpwZw.jpg",
                         <br>
@@ -328,7 +368,7 @@
                     </div>
                 </div>
                 <div class="usageHint">
-                    <h5 class="lightGreen">Get All Customers</h5>
+                    <h5 class="lightGreen">Get First N Customers</h5>
                     <p>In this case the server will return the first 3 customers in it's data</p>
                     <p class="codeBlock">
                         fetch(<span class="url">'https://publicapi51.herokuapp.com/customers?first=3'</span>)<br>
@@ -342,12 +382,12 @@
                             onclick="hideGetFirstN()">Hide
                             Output</button>
                     </div>
-                    <div id="getFirstNCodeBlock" class="testCodeBlock" hidden="true">
+                    <div id="getFirstNCodeBlock" class="testCodeBlock">
                         <span class="green"> [ </span> <br>
                         <span class="green ml-2">{</span> <br>
                         <span class="ml-4 lightGreen">"_id":</span>0, <br>
-                        <span class="ml-4 lightGreen">"email":</span>"sabrina.ferry95@gmail.com", <br>
-                        <span class="ml-4 lightGreen">"username":</span>"Sabrina", <br>
+                        <span class="ml-4 lightGreen">"email":</span>"armin.ferry95@gmail.com", <br>
+                        <span class="ml-4 lightGreen">"username":</span>"armin", <br>
                         <span
                             class="ml-4 lightGreen">"picURL":</span>"https://images.generated.photos/yftyp89XEY7eftRt_2Vg9vMPd9OTS6dMt6fncAeSTvk/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODE3NzYwLmpwZw.jpg",
                         <br>
@@ -375,38 +415,213 @@
                     </div>
                 </div>
             </div>
+
+            <div class="usageProducts">
+                <h4 class="green"> <i class="fal fa-code icon iconx3"></i> Products</h4>
+                <div class="usageHint">
+                    <h5 class="lightGreen">Get All Products</h5>
+                    <p>In this case the server will return all the products saved in it's data</p>
+                    <p class="codeBlock">
+                        fetch(<span class="url">'https://publicapi51.herokuapp.com/products'</span>)<br>
+                        <span class="ml-4">.then(res=>res.json())</span><br>
+                        <span class="ml-4">.then(json=>console.log(json))</span>
+                    </p>
+                    <div class="button">
+                        <button id="getProductsAllShow" class="btn btn-outline-success"
+                            onclick="showProductsGetAll()">Show
+                            Output</button>
+                        <button id="getProductsAllHide" class="btn btn-outline-danger" hidden="true"
+                            onclick="hideProductsGetAll()">Hide
+                            Output</button>
+                    </div>
+                    <div id="getProductsAllCodeBlock" class="testCodeBlock">
+                        <span class="green"> [ </span> <br>
+                        <span class="green ml-2">{</span> <br>
+                        <span class="ml-4 lightGreen">"_id":</span>0, <br>
+                        <span class="ml-4 lightGreen">"title":</span>"Fjallraven - Foldsack No. 1 Backpack, Fits 15
+                        Laptops", <br>
+                        <span class="ml-4 lightGreen">"price":</span>109.95, <br>
+                        <span class="ml-4 lightGreen">"description":</span>"Your perfect pack for everyday use and walks
+                        in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday", <br>
+                        <span class="ml-4 lightGreen">"category":</span>"men's clothing", <br>
+                        <span
+                            class="ml-4 lightGreen">"picURL":</span>"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+                        <br>
+                        <span class="ml-4 lightGreen">"rating":</span>3.9 <br>
+                        <span class="ml-4 lightGreen">"stock":</span>120 <br>
+                        <span class="ml-2 green">},</span> <br>
+                        <br>
+                        <span class="ml-2 green">/* . . . . . . */</span> <br>
+                        <br>
+                        <span class="green ml-2">{</span> <br>
+                        <span class="ml-4 lightGreen">"_id":</span>19, <br>
+                        <span class="ml-4 lightGreen">"title":</span>"DANVOUY Womens T Shirt Casual Cotton Short", <br>
+                        <span class="ml-4 lightGreen">"price":</span>12.99, <br>
+                        <span class="ml-4 lightGreen">"description":</span>"95%Cotton,5%Spandex, Features: Casual, Short
+                        Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion:
+                        Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.", <br>
+                        <span class="ml-4 lightGreen">"category":</span>"women's clothing", <br>
+                        <span
+                            class="ml-4 lightGreen">"picURL":</span>"https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+                        <br>
+                        <span class="ml-4 lightGreen">"rating":</span>3.6 <br>
+                        <span class="ml-4 lightGreen">"stock":</span>145 <br>
+                        <span class="ml-2 green">},</span> <br>
+                        <span class="green">]</span> <br>
+                    </div>
+                </div>
+                <div class="usageHint">
+                    <h5 class="lightGreen">Get Product By Id</h5>
+                    <p>In this case the server will return the product with the id = 0</p>
+                    <p class="codeBlock">
+                        fetch(<span class="url">'https://publicapi51.herokuapp.com/products/0'</span>)<br>
+                        <span class="ml-4">.then(res=>res.json())</span><br>
+                        <span class="ml-4">.then(json=>console.log(json))</span>
+                    </p>
+                    <div class="button">
+                        <button id="getProductsByIdShow" class="btn btn-outline-success"
+                            onclick="showProductsGetById()">Show
+                            Output</button>
+                        <button id="getProductsByIdHide" class="btn btn-outline-danger" hidden="true"
+                            onclick="hideProductsGetById()">Hide
+                            Output</button>
+                    </div>
+                    <div id="getProductsbyIdCodeBlock" class="testCodeBlock">
+                        <span class="green"> [ </span> <br>
+                        <span class="green ml-2">{</span> <br>
+                        <span class="ml-4 lightGreen">"_id":</span>0, <br>
+                        <span class="ml-4 lightGreen">"title":</span>"Fjallraven - Foldsack No. 1 Backpack, Fits 15
+                        Laptops", <br>
+                        <span class="ml-4 lightGreen">"price":</span>109.95, <br>
+                        <span class="ml-4 lightGreen">"description":</span>"Your perfect pack for everyday use and walks
+                        in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday", <br>
+                        <span class="ml-4 lightGreen">"category":</span>"men's clothing", <br>
+                        <span
+                            class="ml-4 lightGreen">"picURL":</span>"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+                        <br>
+                        <span class="ml-4 lightGreen">"rating":</span>3.9 <br>
+                        <span class="ml-4 lightGreen">"stock":</span>120 <br>
+                        <span class="ml-2 green">},</span> <br>
+                        <span class="green"> ] </span> <br>
+                    </div>
+                </div>
+                <div class="usageHint">
+                    <h5 class="lightGreen">Get First N Products</h5>
+                    <p>In this case the server will return the first 3 products in it's data</p>
+                    <p class="codeBlock">
+                        fetch(<span class="url">'https://publicapi51.herokuapp.com/products?first=3'</span>)<br>
+                        <span class="ml-4">.then(res=>res.json())</span><br>
+                        <span class="ml-4">.then(json=>console.log(json))</span>
+                    </p>
+                    <div class="button">
+                        <button id="getProductsFirstNShow" class="btn btn-outline-success"
+                            onclick="showProductsGetFirstN()">Show
+                            Output</button>
+                        <button id="getProductsFirstNHide" class="btn btn-outline-danger" hidden="true"
+                            onclick="hideProductsGetFirstN()">Hide
+                            Output</button>
+                    </div>
+                    <div id="getProductsFirstNCodeBlock" class="testCodeBlock">
+                        <span class="green"> [ </span> <br>
+                        <span class="green ml-2">{</span> <br>
+                        <span class="ml-4 lightGreen">"_id":</span>0, <br>
+                        <span class="ml-4 lightGreen">"title":</span>"Fjallraven - Foldsack No. 1 Backpack, Fits 15
+                        Laptops", <br>
+                        <span class="ml-4 lightGreen">"price":</span>109.95, <br>
+                        <span class="ml-4 lightGreen">"description":</span>"Your perfect pack for everyday use and walks
+                        in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday", <br>
+                        <span class="ml-4 lightGreen">"category":</span>"men's clothing", <br>
+                        <span
+                            class="ml-4 lightGreen">"picURL":</span>"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+                        <br>
+                        <span class="ml-4 lightGreen">"rating":</span>3.9 <br>
+                        <span class="ml-4 lightGreen">"stock":</span>120 <br>
+                        <span class="ml-2 green">},</span> <br>
+                        <br>
+                        <span class="ml-2 green">/* . . . . . . */</span> <br>
+                        <br>
+                        <span class="green ml-2">{</span> <br>
+                        <span class="ml-4 lightGreen">"_id":</span>2, <br>
+                        <span class="ml-4 lightGreen">"title":</span>"Mens Cotton Jacket", <br>
+                        <span class="ml-4 lightGreen">"price":</span>55.99, <br>
+                        <span class="ml-4 lightGreen">"description":</span>"great outerwear jackets for
+                        Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping,
+                        mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your
+                        family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas
+                        Day.", <br>
+                        <span class="ml-4 lightGreen">"category":</span>"men's clothing", <br>
+                        <span
+                            class="ml-4 lightGreen">"picURL":</span>"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+                        <br>
+                        <span class="ml-4 lightGreen">"rating":</span>4.7 <br>
+                        <span class="ml-4 lightGreen">"stock":</span>500 <br>
+                        <span class="ml-2 green">},</span> <br>
+                        <span class="green">]</span> <br>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script>
         function showGetAll() {
             document.getElementById("getAllShow").hidden = true;
-            document.getElementById("getAllCodeBlock").hidden = false;
+            document.getElementById("getAllCodeBlock").classList.add("show");
             document.getElementById("getAllHide").hidden = false;
         }
         function hideGetAll() {
             document.getElementById("getAllShow").hidden = false;
-            document.getElementById("getAllCodeBlock").hidden = true;
+            document.getElementById("getAllCodeBlock").classList.remove("show");
             document.getElementById("getAllHide").hidden = true;
         }
         function showGetById() {
             document.getElementById("getByIdShow").hidden = true;
-            document.getElementById("getbyIdCodeBlock").hidden = false;
+            document.getElementById("getbyIdCodeBlock").classList.add("showSmall");
             document.getElementById("getByIdHide").hidden = false;
         }
         function hideGetById() {
             document.getElementById("getByIdShow").hidden = false;
-            document.getElementById("getbyIdCodeBlock").hidden = true;
+            document.getElementById("getbyIdCodeBlock").classList.remove("showSmall");
             document.getElementById("getByIdHide").hidden = true;
         }
         function showGetFirstN() {
             document.getElementById("getFirstNShow").hidden = true;
-            document.getElementById("getFirstNCodeBlock").hidden = false;
+            document.getElementById("getFirstNCodeBlock").classList.add("show");
             document.getElementById("getFirstNHide").hidden = false;
         }
         function hideGetFirstN() {
             document.getElementById("getFirstNShow").hidden = false;
-            document.getElementById("getFirstNCodeBlock").hidden = true;
+            document.getElementById("getFirstNCodeBlock").classList.remove("show");
             document.getElementById("getFirstNHide").hidden = true;
+        }
+        function showProductsGetAll() {
+            document.getElementById("getProductsAllShow").hidden = true;
+            document.getElementById("getProductsAllCodeBlock").classList.add("showlarger");
+            document.getElementById("getProductsAllHide").hidden = false;
+        }
+        function hideProductsGetAll() {
+            document.getElementById("getProductsAllShow").hidden = false;
+            document.getElementById("getProductsAllCodeBlock").classList.remove("showlarger");
+            document.getElementById("getProductsAllHide").hidden = true;
+        }
+        function showProductsGetById() {
+            document.getElementById("getProductsByIdShow").hidden = true;
+            document.getElementById("getProductsbyIdCodeBlock").classList.add("showSmall");
+            document.getElementById("getProductsByIdHide").hidden = false;
+        }
+        function hideProductsGetById() {
+            document.getElementById("getProductsByIdShow").hidden = false;
+            document.getElementById("getProductsbyIdCodeBlock").classList.remove("showSmall");
+            document.getElementById("getProductsByIdHide").hidden = true;
+        }
+        function showProductsGetFirstN() {
+            document.getElementById("getProductsFirstNShow").hidden = true;
+            document.getElementById("getProductsFirstNCodeBlock").classList.add("showlarger");
+            document.getElementById("getProductsFirstNHide").hidden = false;
+        }
+        function hideProductsGetFirstN() {
+            document.getElementById("getProductsFirstNShow").hidden = false;
+            document.getElementById("getProductsFirstNCodeBlock").classList.remove("showlarger");
+            document.getElementById("getProductsFirstNHide").hidden = true;
         }
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

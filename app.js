@@ -8,9 +8,11 @@ var app = express();
 app.use(cors());
 var server = http.createServer(app);
 
-const usersRouter = require("./routes/customer")
+const customersRouter = require("./routes/customer")
+const productsRouter = require("./routes/products")
 app.use(express.json())
-app.use("/customers", usersRouter)
+app.use("/customers", customersRouter)
+app.use("/products", productsRouter)
 
 
 app.get('/', function(req, res){
